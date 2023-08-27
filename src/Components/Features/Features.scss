@@ -1,0 +1,158 @@
+.features {
+  padding: 50px 12%;
+  font-size: 22px;
+  .row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    .text-col {
+      flex-basis: 50%;
+      margin-bottom: 20px;
+      h2 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+    }
+    .img-col {
+      flex-basis: 50%;
+      margin-bottom: 20px;
+      position: relative;
+      img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        
+      }
+      .animation1 {
+        z-index: -1;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        max-width: 73%;
+        max-height: 54%;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        video {
+          display: inline-block;
+          vertical-align: baseline;
+          object-fit: contain;
+          overflow-clip-margin: content-box;
+          overflow: clip;
+        }
+      }
+      .animation2 {
+        z-index: -1;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        max-width: 63%;
+        max-height: 47%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        video {
+            display: inline-block;
+            vertical-align: baseline;
+            object-fit: contain;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+          }
+      }
+      .card{
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        bottom: 8%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin: 0 auto;
+        background: rgb(0,0,0);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 55%;
+        min-width: 15rem;
+        padding: 0.25rem 0.65rem;
+        border: 2px solid rgba(128,128,128,0.7);
+        box-shadow: 0 0 2em 0 rgb(0,0,0);
+        border-radius: 0.75rem;
+        z-index: 1;
+        .img{
+            margin: 0 1rem 0 0;
+            -webkit-box-flex: 0;
+            -webkit-flex-grow: 0;
+            -ms-flex-positive: 0;
+            flex-grow: 0;
+            margin-left: -13%;
+            margin-right: -10%;
+            -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            img{
+                aspect-ratio: 3/2;
+                object-fit: contain;
+            }
+        }
+        .text{
+            text-align: left;
+            -webkit-box-flex: 1;
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            -webkit-flex-shrink: 1;
+            -ms-flex-negative: 1;
+            flex-shrink: 1;
+            margin: 0.3rem 0;
+            .row1{
+                color: rgb(255,255,255);
+                font-weight: 500;
+                font-size: 0.875rem;
+            }
+            .row2{
+                font-size: 0.85rem;
+                font-weight: 400;
+                color: #0071eb;
+            }
+        }
+        .download{
+            width: 3rem;
+            height: 3rem;
+            outline: 2px solid rgb(0,0,0);
+            outline-offset: -2px;
+            display: block;
+            background: url('../../Images/download-icon.gif') center center no-repeat;
+            -webkit-background-size: 100%;
+            background-size: 100%;
+            content: '';
+            -webkit-box-flex: 0;
+            -webkit-flex-grow: 0;
+            -ms-flex-positive: 0;
+            flex-grow: 0;
+            -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+        }
+      }
+    }
+  }
+}
