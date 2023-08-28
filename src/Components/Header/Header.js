@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.scss'
 import Logo from '../../Images/logo.png'
 import DownIcon from '../../Images/down-icon.png'
+import Globe from '../../Images/globe.png'
 
 export const Header = () => {
   return (
@@ -9,7 +10,7 @@ export const Header = () => {
       <nav>
         <img src={Logo} alt="Logo" />
         <div>
-          <button className='lang-btn'>English <img src={DownIcon} alt="DownIcon" /> </button>
+          <button className='lang-btn'><img src={Globe} alt="Globe" style={{marginLeft:"-10px", marginRight:"10px", height:"15px", width:"18px"}}/>English <img src={DownIcon} alt="DownIcon" /> </button>
           <button>Sign In</button>
         </div>
       </nav>

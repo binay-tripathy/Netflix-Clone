@@ -1,0 +1,33 @@
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 7px solid #333;
+    color: rgba(255,255,255,0.7);
+    h4{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .row{
+        display: flex;
+        align-items: flex-start;
+        padding: 10px 0;
+        .col{
+            flex-basis: 33%;
+            flex-grow: 1;
+            margin-bottom: 20px;
+            a{
+                display: block;
+                text-decoration: underline;
+                color: rgba(255,255,255,0.7);
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+        }
+    }
+    .lang-btn{
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 3px;
+    }
+}
