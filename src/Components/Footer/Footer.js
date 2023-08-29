@@ -31,6 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <button className='lang-btn'><img src={Globe} alt="Globe" style={{marginLeft:"-12px", marginRight:"10px", height:"20px", width:"25px"}}/>English <img src={DownIcon} alt="DownIcon" /> </button>
+      <p className='copyright'>Netflix India</p>
     </div>
   )
 }

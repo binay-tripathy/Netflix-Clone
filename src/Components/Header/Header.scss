@@ -17,29 +17,33 @@ nav{
     width: 150px;
     cursor: pointer;
   }
-  button{
-    border: 0;
-    outline: 0;
-    background: #db0001;
-    color: #fff;
-    padding: 7px 20px;
-    font-size: 14px;
-    border-radius: 4px;
-    margin-left: 10px;
-    cursor: pointer;
+  .buttons{
+    display: flex;
+    button{
+      border: 0;
+      outline: 0;
+      background: #db0001;
+      color: #fff;
+      padding: 7px 20px;
+      font-size: 14px;
+      border-radius: 4px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    .lang-btn{
+      display: inline-flex;
+      align-items: center;
+      background: transparent;
+      border: 1px solid #fff;
+      padding: 7px 10px;
+      img{
+        width: 10px;
+        margin-left: 10px;
+      }
+    }
   }
 }
-.lang-btn{
-  display: inline-flex;
-  align-items: center;
-  background: transparent;
-  border: 1px solid #fff;
-  padding: 7px 10px;
-  img{
-    width: 10px;
-    margin-left: 10px;
-  }
-}
+
 .header-content{
   position: absolute;
   top: 50%;
@@ -81,5 +85,33 @@ nav{
     padding: 15px 30px;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  
+  
+  nav{
+    img{
+      width: 100px;
+    }
+    button{
+      padding: 5px 10px !important;
+    }
+    .lang-btn{
+      padding: 4px 8px !important;
+    }
+  }
+  .header-content{
+    position: unset;
+    transform: none;
+    padding-top: 150px;
+    h1{
+      font-size: 30px;
+    }
+  }
+  .email-signup{
+    button{
+      font-size: 12px;
+      padding: 10px 15px;
+    }
+  }
+}
 

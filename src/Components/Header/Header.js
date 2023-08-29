@@ -9,8 +9,8 @@ export const Header = () => {
     <div className="header">
       <nav>
         <img src={Logo} alt="Logo" />
-        <div>
-          <button className='lang-btn'><img src={Globe} alt="Globe" style={{marginLeft:"-10px", marginRight:"10px", height:"15px", width:"18px"}}/>English <img src={DownIcon} alt="DownIcon" /> </button>
+        <div className='buttons'>
+          <button className='lang-btn'><img src={Globe} alt="Globe" style={{margin:"-10px 10px -9px -5px ", height:"20px", width:"25px"}}/>English <img src={DownIcon} alt="DownIcon" /> </button>
           <button>Sign In</button>
         </div>
       </nav>

@@ -157,3 +157,29 @@
     }
   }
 }
+@media only screen and (max-width: 600px) {
+  .text-col, .img-col{
+    flex-basis: 100% !important;
+  }
+  .text-col{
+    h2{
+      font-size: 30px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+  .row:nth-child(2), .row:nth-child(4){
+    flex-direction: column-reverse;
+  }
+  .card{
+    aspect-ratio: 4/1;
+    object-fit: contain;
+    img{
+      height: -10%;
+    }
+  }
+  .animation1, .animation2{
+    object-fit: cover;
+  }
+}
